@@ -1,0 +1,13 @@
+{
+  "name": "fun-task-fetch",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "fun-task": "^1.5.2",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "rm -rf ./target && mkdir ./target && webpack ./src/example.js ./target/example.js && cp ./src/index.html ./target"
+  }
+}
